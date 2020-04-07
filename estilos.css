@@ -81,3 +81,28 @@ header img{
     margin-top: 20px;
     display: inline-block;
 }
+
+.dominios {
+    display: flex;
+}
+
+.dominios li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+span.punto{
+    color: #1776ff;
+    font-size: 24px;
+}
+
+span.dominio{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span.anio{
+    
+}
+
