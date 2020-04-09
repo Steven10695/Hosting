@@ -133,7 +133,8 @@ span.anio {
 }
 
 #services h2,
-#pricing h2 {
+#pricing h2,
+#file h2 {
   font-family: "Rubik";
   font-weight: 500;
   text-transform: uppercase;
@@ -274,8 +275,7 @@ span.anio {
   padding-top: 90px;
 }
 
-#pricing h2,
-h3 {
+#pricing h2,h3 {
   text-align: center;
   margin: 0;
 }
@@ -386,4 +386,81 @@ h3 {
   left: 0;
   width: 100%;
   border-color: #2423230d;
+}
+
+/* FILE */
+
+#file {
+  padding-top: 90px;
+}
+
+#file .contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+#file h2{
+  margin: 0px;
+}
+
+#file h3{
+  font-size: 34px;
+  width: 78%;
+  text-align: start;
+  margin: 0px;
+  margin-top: 15px;
+  font-weight: bold;
+  
+}
+
+#file .iconos{
+  margin-top: 30px;
+}
+
+#file .icono{
+  margin-right: 15px;
+}
+
+#files .iconos .icono{
+  margin-right: 15px;
+}
+
+#file .iconos h4, #file .iconos p{
+  margin: 0;
+}
+
+#file .iconos h4{
+  font-weight: bold;
+}
+
+#file .iconos p{
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+#file .item{
+  display: flex;
+}
+
+#file .titular{
+  width: 42%;
+  margin-right: 45px;
+}
+
+#file .imagen{
+  width: 40%;
+}
+
+#file .imagen img{
+  width: 100%;
+}
+
+#file .imagen .boton{
+  background: #296ffa;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+  font-family: 'Rubik';
 }
