@@ -134,7 +134,8 @@ span.anio {
 
 #services h2,
 #pricing h2,
-#file h2 {
+#file h2,
+#easy h2 {
   font-family: "Rubik";
   font-weight: 500;
   text-transform: uppercase;
@@ -144,7 +145,9 @@ span.anio {
 }
 
 #services h3,
-#pricing h3 {
+#pricing h3,
+#file h3,
+#easy h3 {
   font-weight: 500;
   font-size: 38px;
 }
@@ -494,4 +497,76 @@ span.anio {
 #expert .boton{
   padding: 15px 50px;
   letter-spacing: 1px;
+}
+
+/* EASY SETUP */
+
+#easy{
+  padding-top: 90px;
+}
+
+#easy .contenedor{
+  display: flex;
+}
+
+#easy .titular, #easy .imagen{
+  width: 40%;
+}
+
+#easy .imagen img{
+  width: 100%;
+}
+
+#easy .imagen{
+  margin-right: 72px;
+}
+
+#easy h2,h3{
+  margin: 0px;
+}
+
+#easy h3{
+  text-align: start;
+  font-weight: bold;
+  
+}
+
+#easy p{
+  color: 666;
+  line-height: 30px;
+}
+
+#easy ul{
+  display: flex;
+  padding: 0px;
+  margin-bottom: 37px;
+}
+
+#easy ul li{
+  list-style: none;
+}
+
+#easy i{
+  background: #ff8f00;
+  color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height:25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+#easy ul li:nth-child(1){
+  margin-right: 20px;
+}
+
+#easy .boton{
+  background: #2870fa;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+}
+
+#easy ul{
+  margin-top: 30px;
 }
