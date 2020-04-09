@@ -464,3 +464,34 @@ span.anio {
   letter-spacing: 1px;
   font-family: 'Rubik';
 }
+
+/* EXPERT */
+
+#expert {
+  padding: 196px 0;
+  background-image: url(imagenes/expert4.png),linear-gradient(150deg,#ffba61 0%,#ffe970 100%);
+  background-size: 1521px 975px;
+  background-position: 50% 50%;
+  text-align: center;
+}
+
+#expert h2{
+  font-family: 'Rubik';
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 13px #616161;
+  width: 50%;
+  margin: auto;
+}
+
+#expert p{
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#expert .boton{
+  padding: 15px 50px;
+  letter-spacing: 1px;
+}
