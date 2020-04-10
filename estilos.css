@@ -135,7 +135,8 @@ span.anio {
 #services h2,
 #pricing h2,
 #file h2,
-#easy h2 {
+#easy h2,
+#testimonials h2 {
   font-family: "Rubik";
   font-weight: 500;
   text-transform: uppercase;
@@ -147,7 +148,8 @@ span.anio {
 #services h3,
 #pricing h3,
 #file h3,
-#easy h3 {
+#easy h3,
+#testimonials h3 {
   font-weight: 500;
   font-size: 38px;
 }
@@ -570,3 +572,95 @@ span.anio {
 #easy ul{
   margin-top: 30px;
 }
+
+/* TESTIOMONIALS */
+
+#testimonials {
+  padding-top: 90px;
+}
+
+#testimonials h2, #testimonials h3{
+  margin: 0px;
+  text-align: center;
+}
+
+.contenedor-testimonials{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.testimonial{
+  width: 24%;
+  text-align: center;
+  background-image: url(imagenes/testimonial-back.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 0 32px;
+  font-family: 'Open Sans';
+
+}
+
+.testimonial p{
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+.testimonial .nombre {
+  font-weight: bold;
+}
+
+/* SATISFACTION */
+
+#satisfaction {
+  padding-top: 90px;
+}
+
+#satisfaction h3{
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 35px;
+
+}
+
+#satisfaction h4{
+  font-family: 'Rubik';
+  font-size: 26px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+#satisfaction p{
+  color: #fff;
+  line-height: 34px;
+  margin: 0px;
+}
+
+#satisfaction .contenedor-tarjetas{
+  display: flex;
+  justify-content: center;
+}
+
+#satisfaction .tarjeta{
+  background-image: url(imagenes/tarjeta1.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-position: bottom left;
+  background-size: cover;
+  border-radius: 24px;
+  width: 40%;
+  margin: 0 25px;
+  padding: 27px 40px 26px 33px;
+}
+
+#satisfaction .tarjeta-dos{
+  background-image: url(imagenes/tarjeta2.png), linear-gradient(150deg, #ffba61 0%, #ffdc71 100%); 
+}
+
+
+
