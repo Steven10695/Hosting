@@ -729,7 +729,7 @@ footer .redes i{
 
 .popup{
   position: fixed;
-  top: 20%;
+  top: 30%;
   left: 30%;
   width: 500px;
   height: 300px;
@@ -1037,6 +1037,13 @@ footer .redes i{
   .tab img {
     width: 100%;
   }
+
+  .popup {
+    top: 20%;
+    left: 15%;
+    width: 300px;
+    height: 250px;
+}
 }
 
 
