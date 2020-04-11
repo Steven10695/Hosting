@@ -1,10 +1,10 @@
 $(document).ready(function(){
-
+/*
 $('.popup').delay(4000).fadeIn(500);
 $('.popup .cerrar').click(function(){
     $('.popup').fadeOut();
 })
-
+*/
 $('#tab-uno').addClass("active");
 $('#hosting-dos').fadeOut();
 $('#hosting-tres').fadeOut();
@@ -34,6 +34,11 @@ $('#tab-tres').click(function(){
     $('#tab-dos').removeClass("active");
     $('#tab-uno').removeClass("active");
     $('#tab-tres').addClass("active");
+})
+
+$('.menu-icon').on('click', function(){
+    $('nav').slideToggle();
+
 })
 
 })
